@@ -1,0 +1,21 @@
+.external-style-body{
+	background-color: #F0E68C;
+}
+.external-h1{
+	text-align: center;
+	color: darkblue;
+}
+.external-nav-table{
+	margin: 0 AUTO;
+	border-collapse: collapse;
+	width: 100%;
+	background-color: #E0E0E0;
+}
+.external-nav-td{
+	padding: 10x;
+}
+.external-nav-a{
+	color: brown;
+	font-size: 20px;
+	text-decoration: none;
+}
