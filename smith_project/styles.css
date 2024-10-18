@@ -1,0 +1,320 @@
+/* Body, Header, and Footer Styles */
+body {
+    font-family: Tahoma, sans-serif; /* Sets font */
+    background-color: #f4f4f4; /* Light background for the entire page */
+    margin: 0; /* Removes default margin around the body */
+    padding: 0; /* Removes default padding */
+}
+
+header, footer {
+    background-color: #333; /* Dark background for header and footer */
+    color: #fff; /* White text */
+    text-align: center; /* Centers the text */
+    padding: 20px 0; /* Adds space inside the header and footer */
+}
+
+/* Headings and Paragraph Styles */
+h1 {
+    color: #0047AB; /* Sets a blue color for the main heading */
+    font-size: 32px; /* Makes the main heading large */
+    text-align: center; /* Centers the heading */
+    margin: 20px 0; /* Adds space above and below the heading */
+}
+
+h2, h3 {
+    color: #333; /* Dark color for subheadings */
+}
+
+h2 {
+    font-size: 24px; /* Sets a medium size for h2 */
+    border-bottom: 2px solid #ccc; /* Adds a line under the heading */
+    padding-bottom: 10px; /* Adds space under the heading before the line */
+}
+
+p {
+    line-height: 1.6; /* Increases the space between lines */
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #444; /* Dark background for the navigation bar */
+    padding: 10px 0; /* Adds vertical space inside the navigation bar */
+}
+
+nav ul {
+    list-style: none; /* Removes bullets from the list */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    display: flex; /* Aligns navigation items horizontally */
+    justify-content: center; /* Centers the navigation items */
+}
+
+nav ul li {
+    margin: 0 15px; /* Adds space between navigation items */
+}
+
+nav ul li a {
+    color: #fff; /* White text for links */
+    text-decoration: none; /* Removes underline from links */
+    font-weight: bold; /* Makes the text bold */
+    padding: 5px 10px; /* Adds space around the link text */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Changes background on hover */
+    border-radius: 5px; /* Rounds the corners on hover */
+}
+nav ul li a.active {
+  background-color: #0073e6; /* Background color for the active page */
+  color: white; /* Text color for the active page */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px; /* Adds space around the main content */
+    background: #fff; /* White background for the main content */
+}
+
+/* Introduction Section */
+.intro h2 {
+    color: #0073e6; /* Blue color for the intro heading */
+}
+
+/* Book Now Button */
+.booknow {
+    background-color: #0073e6; /* Blue background for the button */
+    border: none; /* Removes the border */
+    color: white; /* White text for contrast */
+    padding: 15px 32px; /* Adds space inside the button */
+    text-align: center; /* Centers the button text */
+    text-decoration: none; /* Removes underline from button text */
+    display: inline-block; /* Aligns the button inline with other elements */
+    font-size: 16px; /* Sets the font size */
+    margin: 4px 2px; /* Adds space around the button */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    border-radius: 50px; /* Rounds the button corners */
+    transition: background-color 0.3s; /* Smoothly changes background on hover */
+}
+
+.booknow:hover {
+    background-color: #007BB5; /* Darker blue when hovering over the button */
+}
+
+/* Link Styles */
+.link-s {
+    display: flex; /* Aligns the links side by side */
+    justify-content: space-around; /* Spreads the links evenly */
+    margin-top: 20px; /* Adds space above the links */
+}
+
+.link-s .links a {
+    background-color: #0073e6; /* Blue background for links */
+    color: #fff; /* White text for contrast */
+    padding: 10px; /* Adds space inside the links */
+    border-radius: 5px; /* Rounds the corners of the links */
+    text-decoration: none; /* Removes underline from links */
+}
+
+.link-s .links a:hover {
+    background-color: #005bb5; /* Darker blue on hover */
+}
+
+/* Barber Login Page Styles */
+.login {
+    width: 300px; /* Sets a fixed width for the login form */
+    margin: 40px auto; /* Centers the form and adds space on top */
+    padding: 20px; /* Adds space inside the form */
+    border: 1px solid #ddd; /* Light grey border around the form */
+    background-color: #f9f9f9; /* Light background color for the form */
+    border-radius: 8px; /* Rounds the form corners */
+}
+
+.login label {
+    display: block; /* Makes the labels appear on their own line */
+    margin-bottom: 5px; /* Adds space below the labels */
+    font-weight: bold; /* Makes the label text bold */
+}
+
+.login input[type="text"], 
+.login input[type="password"] {
+    width: 100%; /* Makes the inputs take up the full width */
+    padding: 8px; /* Adds space inside the inputs */
+    margin-bottom: 15px; /* Adds space below the inputs */
+    border: 1px solid #ddd; /* Light grey border for the inputs */
+    border-radius: 5px; /* Rounds the input corners */
+}
+
+.login button {
+    width: 100%; /* Button takes up the full width */
+    padding: 10px; /* Adds space inside the button */
+    background-color: #0073e6; /* Blue background for the button */
+    color: #fff; /* White text for contrast */
+    border: none; /* Removes the button border */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+}
+
+.login button:hover {
+    background-color: #005bb5; /* Darker blue on hover */
+}
+
+/* About Us Page Styles */
+.about-us h2 {
+    text-align: center; /* Centers the About Us heading */
+    margin-top: 20px; /* Adds space above the heading */
+}
+
+.about-us p {
+    max-width: 600px; /* Limits the width of paragraphs */
+    margin: 20px auto; /* Centers the text with space above and below */
+    text-align: center; /* Centers the paragraph text */
+}
+
+/* Testimonials Page Styles */
+.testimonials ul {
+    list-style-type: none; /* Removes bullets from the list */
+    padding: 0; /* Removes default padding */
+}
+
+.testimonials ul li {
+    background: #f9f9f9; /* Light background for each testimonial */
+    border: 1px solid #ddd; /* Light grey border for each testimonial */
+    margin: 10px 0; /* Adds space between testimonials */
+    padding: 10px; /* Adds space inside testimonials */
+    border-radius: 8px; /* Rounds the corners of the testimonials */
+}
+
+.testimonials form {
+    width: 400px; /* Sets a fixed width for the form */
+    margin: 30px auto; /* Centers the form and adds space on top */
+    padding: 20px; /* Adds space inside the form */
+    background: #f4f4f4; /* Light grey background for the form */
+    border-radius: 8px; /* Rounds the form corners */
+    border: 1px solid #ddd; /* Light grey border around the form */
+}
+
+.testimonials form label {
+    display: block; /* Makes the labels appear on their own line */
+    margin-bottom: 8px; /* Adds space below the labels */
+    font-weight: bold; /* Makes the label text bold */
+}
+
+.testimonials form input, 
+.testimonials form textarea {
+    width: 100%; /* Makes the inputs take up the full width */
+    padding: 10px; /* Adds space inside the inputs */
+    margin-bottom: 15px; /* Adds space below the inputs */
+    border: 1px solid #ddd; /* Light grey border for the inputs */
+    border-radius: 5px; /* Rounds the input corners */
+}
+
+.testimonials form button {
+    width: 100%; /* Button takes up the full width */
+    padding: 10px; /* Adds space inside the button */
+    background-color: #0073e6; /* Blue background for the button */
+    color: #fff; /* White text for contrast */
+    border: none; /* Removes the button border */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+}
+
+.testimonials form button:hover {
+    background-color: #005bb5; /* Darker blue on hover */
+}
+
+/* Gallery Styles */
+.gallery {
+    margin-top: 20px; /* Adds space above the gallery */
+}
+
+.gallery-grid {
+    display: flex; /* Aligns gallery items in a flex grid */
+    justify-content: center; /* Centers the gallery items */
+    gap: 20px; /* Adds space between gallery items */
+    flex-wrap: wrap; /* Allows gallery items to wrap to the next line */
+}
+
+.gallery-grid a {
+    flex: 1 1 200px; /* Sets flex width for gallery items */
+}
+
+.gallery-grid img {
+    width: 100%; /* Makes images take up full width */
+    height: auto; /* Ensures images scale proportionally */
+    border-radius: 10px; /* Rounds the image corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow around the images */
+    transition: transform 0.3s ease; /* Smoothly changes the image size on hover */
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05); /* Slightly enlarges the image on hover */
+}
+
+/* Customer Portal Styles */
+.customer-portal {
+    padding: 40px; /* Adds space around the customer portal section */
+    text-align: center; /* Centers the text in the customer portal */
+}
+
+.customer-portal h2 {
+    font-size: 32px; /* Sets a large font size for the heading */
+    margin-bottom: 20px; /* Adds space below the heading */
+}
+
+/* Search Form */
+#search-form {
+    display: flex; /* Aligns form elements in a flex layout */
+    justify-content: center; /* Centers the form elements */
+    flex-wrap: wrap; /* Allows form elements to wrap to the next line */
+    margin: 20px 0; /* Adds space above and below the form */
+}
+
+#search-form label {
+    margin: 0 10px; /* Adds space around each label */
+    font-size: 16px; /* Sets the font size */
+    color: #444; /* Dark grey text for the labels */
+}
+
+#search-form input, #search-form select {
+    margin: 0 10px; /* Adds space around the input fields */
+    padding: 8px; /* Adds space inside the input fields */
+    font-size: 16px; /* Sets the font size */
+    border: 1px solid #ddd; /* Light grey border around the input fields */
+    border-radius: 4px; /* Rounds the input field corners */
+}
+
+#search-form button {
+    margin: 10px 0; /* Adds space above and below the button */
+    padding: 10px 20px; /* Adds space inside the button */
+    background-color: #5cb85c; /* Green background for the button */
+    color: #fff; /* White text for contrast */
+    border: none; /* Removes the button border */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    border-radius: 4px; /* Rounds the button corners */
+    transition: background-color 0.3s ease; /* Smoothly changes background color on hover */
+}
+
+#search-form button:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}
+
+/* Results Section */
+#results {
+    margin-top: 30px; /* Adds space above the results section */
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 30px; /* Adds space above the footer */
+    padding: 20px 0; /* Adds space inside the footer */
+    font-size: 14px; /* Sets a smaller font size for the footer text */
+}
+
+footer a {
+    color: #0073e6; /* Blue color for footer links */
+    text-decoration: none; /* Removes underline from footer links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Adds underline on hover for footer links */
+}
