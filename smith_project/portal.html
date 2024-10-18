@@ -1,0 +1,59 @@
+<!--
+
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Portal - BarberConnect</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>BarberConnect</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Barber Login</a></li>
+                <li><a href="portal.html">Customer Portal</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <section class="customer-portal">
+        <h2>Find A Barber</h2>
+        <p>Search for barbers by hair type, location or specialty.</p>
+    <form id="search-form">
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" placeholder="Enter city or zip code">
+
+        <label for="hair-type">Hair Type:</label>
+        <select id="hair-type" name="hair-type">
+            <option value="">Select Hair Type</option>
+            <option value="straight">Straight</option>
+            <option value="wavy">Wavy</option>
+            <option value="curly">Curly</option>
+            <option value="coily">Coily</option>
+        </select>
+        <label for="specialty">Speciality</label>
+        <input type="text" id="specialty" name="specialty" placeholder="Example: Designs, Locs">
+        <button type="button" id="search-barbers">Search</button>
+    </form>
+    <section id="results">
+        <H3>Matches</H3>
+    </section>
+</section>
+</main>
+<footer>
+    <p>Copyright &copy; 2024 BarberConnect</p>
+    <a href="https://validator.w3.org/check?uri=referer" referrerpolicy="unsafe-url">Validate HTML</a>
+    <br>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer" referrerpolicy="unsafe-url">Validate CSS</a>
+</footer>
+</body>
+</html> 
