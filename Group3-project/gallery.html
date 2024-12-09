@@ -1,0 +1,59 @@
+<!-- 
+This is the Gallery page for the BarberConnect website.
+It shows phots of different haircuts in a gallery format. 
+- The header section includes the site title and a navigation menu linking to other pages.
+- The main section displays a grid of featured haircut styles.
+- The footer section includes copyright information and links to validate the HTML and CSS of the page.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - BarberConnect</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src= "https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts/gallery.js"></script>
+</head>
+<body>
+    <header>
+        <h1>BarberConnect</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Barber Login</a></li>
+                <li><a href="portal.html">Customer Portal</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <section class="gallery">
+        <h2>Featured Work</h2>
+        <div class="gallery-grid">
+            <a href="images/cut1.jpg">
+                <img src="images/cut1.jpg" alt="Style 1">
+            </a>
+            <a href="images/cut2.jpg">
+                <img src="images/cut2.jpg" alt="Style 2">
+            </a>
+            <a href="images/cut3.jpg">
+                <img src="images/cut3.jpg" alt="Style 3">
+            </a>
+            <a href="images/cut4.jpg">
+                <img src="images/cut4.jpg" alt="Style 4">
+            </a>
+            <!-- All images are AI Generated. -->
+        </div>
+    </section>
+</main>
+<footer>
+    <p>Copyright &copy; 2024 BarberConnect</p>
+    <a href="https://validator.w3.org/check?uri=referer" referrerpolicy="unsafe-url">Validate HTML</a>
+    <br>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer" referrerpolicy="unsafe-url">Validate CSS</a>
+</footer>
+</body>
+</html> 
